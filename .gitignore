@@ -1,0 +1,7 @@
+.DS_STORE
+
+# compiled output
+/dist
+/dist-*
+/tmp
+/node_modules/
