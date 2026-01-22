@@ -4,7 +4,7 @@
   import * as path from "node:path";
 
   export default defineConfig({
-    base: '/Winerrybelharrawines/',
+    base: './',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
