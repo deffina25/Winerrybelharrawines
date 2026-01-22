@@ -1,10 +1,9 @@
 
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
-  import * as path from "node:path";
+  import path from 'path';
 
   export default defineConfig({
-    base: '/Winerrybelharrawines/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -59,4 +58,3 @@
       open: true,
     },
   });
-
